@@ -4,4 +4,4 @@ import menuData from '../menu.json'
 const foodMenu = menuTemplate(menuData)
 
 const renderMenu = document.querySelector('.js-menu')
-renderMenu.insertAdjacentHTML('beforeend', renderMenu)
+renderMenu.insertAdjacentHTML('beforeend', foodMenu)
